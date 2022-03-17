@@ -13,38 +13,30 @@ export const Contact = () => {
     <>
       <div className="section">
         <h2 className="section__title" data-aos="fade-right">
-          Get in <span className="different">Touch</span>
+          Connect <span className="different">With me</span>
         </h2>
         <div className={"contactcontainer " + themename} data-aos="fade-right">
           <a
-            href="https://www.linkedin.com/in/bicky-dutta-8a851a19b/"
+            href="https://www.linkedin.com/in/duwesh-kumar//"
             target="_blank"
             rel="noreferrer"
           >
             <FaLinkedin className="linkedin" />
           </a>
-          <a
-            href="https://github.com/imbickydutta"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://github.com/duwesh" target="_blank" rel="noreferrer">
             <VscGithub className="github" />
           </a>
-          <a
-            href="mailto:bicky.dutta@masaischool.com"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="mailto:duwesh.kr@gmail.com" target="_blank" rel="noreferrer">
             <CgMail className="email" />
           </a>
           <a
-            href="https://instagram.com/imbickydutta"
+            href="https://instagram.com/dkduwesh_"
             target="_blank"
             rel="noreferrer"
           >
             <BsInstagram className="twitter" />
           </a>
-          <a href="tel:+917001347896" target="_blank" rel="noreferrer">
+          <a href="tel:+919101579077" target="_blank" rel="noreferrer">
             <BsFillTelephoneFill className="phone" />
           </a>
         </div>

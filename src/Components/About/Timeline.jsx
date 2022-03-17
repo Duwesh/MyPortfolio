@@ -28,44 +28,11 @@ export const Timeline = () => {
     <>
       <div className="section mainsection">
         <h2 className="section__title" data-aos="fade-right">
-          My <span className="different">Timeline 💫</span>
+          My <span className="different">Education 💫</span>
         </h2>
         <VerticalTimeline lineColor={linecolor}>
           <VerticalTimelineElement
             date={"October 2021 - Present"}
-            contentStyle={{
-              boxShadow: `var(--shadow)`,
-              backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
-              color: `var(--clr-fg-alt)`
-            }}
-            contentArrowStyle={{ borderRight: "16px solid  rgb(33, 150, 243)" }}
-            iconStyle={{
-              backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`
-            }}
-            icon={<WorkIcon />}
-          >
-            <h3
-              className="vertical-timeline-element-title"
-              data-aos="fade-right"
-            >
-              Instructional Associate
-            </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-              Masai School
-            </h4>
-            <p data-aos="fade-right">
-              Mentoring and clearing student's conceptual doubts via
-              standups,reviewing student's projects, reporting to the
-              instructor. Helping students to start their career in Tech.
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            date={"April 2021 - October 2021"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               backgroundColor: `var(--clr-bg)`,
@@ -98,7 +65,7 @@ export const Timeline = () => {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={"2014 - 2017"}
+            date={"2017 - 2021"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               backgroundColor: `var(--clr-bg)`,
@@ -116,7 +83,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Bachelor of Science, Zoology Honors
+              Bachelor of Computer Science and Engineering
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
@@ -124,12 +91,12 @@ export const Timeline = () => {
             >
             </h4>
             <p data-aos="fade-right">
-              North Bengal St. Xavier's College, Rajganj
+              The Assam Royal Global University, Guwahati
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={"March 2014"}
+            date={"March 2017"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               backgroundColor: `var(--clr-bg)`,
@@ -154,7 +121,7 @@ export const Timeline = () => {
               data-aos="fade-right"
             >
             </h4>
-            <p data-aos="fade-right">Jalpaiguri Zilla School, Jalpaiguri, West Bengal
+            <p data-aos="fade-right">Kendriya Vidyalaya No.1, Bokaro
             </p>
           </VerticalTimelineElement>
 

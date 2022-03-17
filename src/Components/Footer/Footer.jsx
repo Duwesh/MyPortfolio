@@ -9,11 +9,11 @@ export const Footer = () => {
     <>
       <div className={"section " + themename}>
         <a
-          href="https://github.com/imbickydutta"
+          href="https://github.com/duwesh"
           rel="noreferrer"
           target="_blank"
         >
-          <h3 className="footer">Made with ❤ By imbickydutta</h3>
+          <h3 className="footer">Made with ❤ By Duwesh Kumar</h3>
         </a>
       </div>
     </>

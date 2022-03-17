@@ -2,8 +2,6 @@ import React from "react";
 import "./Introduction.css";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 import { ThemeContext } from "../../Context/theme";
-
-
 export const Introduction = () => {
   const [{ themename }] = React.useContext(ThemeContext);
 
@@ -16,45 +14,33 @@ export const Introduction = () => {
           </h2>
           <div className={"introduction " + themename}>
             <div className="introduction_logocontainer">
+              {/* <div style={{ backgroundImage: `url(${coverImage})` }}> */}
+          
+              {/* </div> */}
               <img
-                src="https://avatars.githubusercontent.com/u/86409991?v=4"
+                src="https://user-images.githubusercontent.com/67849097/158870172-73e12aa4-85f3-4444-9609-67ae871c2055.jpg"
                 alt="Images"
               />
             </div>
             <div className="introduction_datacontainer">
               <h4>
                 Hi Everyone, I am{" "}
-                <span className="different">Bicky Dutta </span> from{" "}
-                <span className="different"> Siliguri, West Bengal</span>. I have
-                completed my graduation in Bachelor of Science from North Bengal
-                St. Xavier's College, Rajganj.
+                <span className="different">Duwesh Kumar </span> from{" "}
+                <span className="different"> Guwahati, Assam</span>.
               </h4>
               <h4>
-                Some of my interests apart form Coding :
+                ⚡ I enjoy developing websites and have a keen interest in
+                solving problems and coming up with effective solutions.
               </h4>
-              <h4 className="different">
-                <span className="icons">
-                  <ExitToAppIcon />
-                </span>
-                eSports Enthusiast{" "}
+              <br />
+              <h4>
+                ⚡ Enjoy building responsive websites (frontend) using ReactJS,
+                Bootstrap etc.
               </h4>
-              <h4 className="different">
-                <span className="icons">
-                  <ExitToAppIcon />
-                </span>
-                Cricket Enthusiast{" "}
-              </h4>
-              <h4 className="different">
-                <span className="icons">
-                  <ExitToAppIcon />
-                </span>
-                Reading Non Fiction{" "}
-              </h4>
-              <h4 className="different">
-                <span className="icons">
-                  <ExitToAppIcon />
-                </span>
-                Travelling{" "}
+              <br />
+              <h4>
+                ⚡ Experience in working on multiple Backened platforms like
+                Node, Express, MongoDB, Postman.
               </h4>
             </div>
           </div>

@@ -16,15 +16,18 @@ export const About = () => {
     <>
       <div className="about center">
         <h1 data-aos="fade-right">
-          Hi, I am <span className="about__name">Bicky Dutta</span>
+          Hi, I am <span className="about__name">Duwesh Kumar</span>
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
-          A Full Stack Developer who loves solving problems and building projects. I am equipped with a variety of technologies and tools to help me build the best possible product.
+          My passion for software lies with dreaming up ideas and making them
+          come true with elegant interface 💻. I focus on writing clean, elegant
+          and efficient code. Highly skilled in collaboration, decision-making,
+          and Data Structures & Algorithms.
         </p>
         <div className="about__contact center">
           <a
-            href="https://github.com/imbickydutta"
+            href="https://github.com/duwesh"
             aria-label="github"
             target="_blank"
             rel="noreferrer"
@@ -33,7 +36,7 @@ export const About = () => {
             <GitHubIcon />
           </a>
           <a
-            href="mailto:bicky.dutta@masaischool.com"
+            href="mailto:duwesh.kr@gmail.com"
             target="_blank"
             rel="noreferrer"
             aria-label="github"
@@ -42,7 +45,7 @@ export const About = () => {
             <EmailIcon />
           </a>
           <a
-            href="tel:+917001347896"
+            href="tel:+919101579077"
             target="_blank"
             rel="noreferrer"
             aria-label="github"
@@ -51,7 +54,7 @@ export const About = () => {
             <PhoneIcon />
           </a>
           <a
-            href="https://www.linkedin.com/in/bicky-dutta-8a851a19b/"
+            href="https://www.linkedin.com/in/duwesh-kumar/"
             aria-label="github"
             className="link link--icon"
             target="_blank"
@@ -60,7 +63,7 @@ export const About = () => {
             <LinkedInIcon />
           </a>
           <a
-            href="https://drive.google.com/file/d/11Jr_dcB47Li27-yCYht0Cq0BNXMQo3cJ/view?usp=sharing"
+            href="https://drive.google.com/file/d/1QgOC7RBuW7db_2GVXk_Pg-RuP7Avucgr/view?usp=sharing"
             aria-label="github"
             className="link link--icon"
             target="_blank"
@@ -69,7 +72,7 @@ export const About = () => {
             <DescriptionIcon />
           </a>
           <a
-            href="https://www.facebook.com/imbickydutta"
+            href="https://www.facebook.com/duwesh.kumar/"
             aria-label="github"
             className="link link--icon"
             target="_blank"

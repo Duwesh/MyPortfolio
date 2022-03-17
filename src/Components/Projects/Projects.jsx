@@ -13,7 +13,7 @@ import {
   SiReactrouter,
   SiJavascript,
   SiMongodb,
-  SiNodedotjs
+  SiNodedotjs,
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
@@ -30,18 +30,20 @@ export const Projects = () => {
             <div className="project_videocontainer">
               <div data-aos="fade-right">
                 <img
-                  src="https://github.com/harshchaturvedi1/mailChimp-clone/blob/master/public/githubReadme/home.png?raw=true"
-                  alt="Mail Chimp"
+                  src="https://user-images.githubusercontent.com/95869206/156205052-f08f250b-e53d-4273-b990-af52d3e14a9c.png"
+                  alt="Flatheads"
                 />
               </div>
             </div>
             <div className="project_information" data-aos="fade-right">
-              <h2>Mail Chimp Replica</h2>
+              <h2>Flatheads Replica</h2>
               <p>
-                Clone of the popular email campaigning app Mail Chimp. Built on react for front end and nodeJS on backend. It's a team project completed executed in 5 days.
+                This is a clone of Flatheads .com. It is an e-commerce platform
+                where users may purchase various types of sneakers. Main
+                functionalities were : Register/Login using JWT, Sorting and
+                Filtering in the backend, Cart and Payment and many more.
               </p>
               <div>
-                <FaReact />
                 <SiHtml5 />
                 <IoLogoJavascript />
                 <SiNodedotjs />
@@ -50,129 +52,140 @@ export const Projects = () => {
               </div>
               <div>
                 <a
-                  href="https://mail-chimp-clone.vercel.app/"
+                  href="https://flatheads-official.herokuapp.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <span type="button" className="btn btn--outline onbt">
-                    See this Live
+                    Deployment
                   </span>
                 </a>
                 <a
-                  href="https://github.com/harshchaturvedi1/mailChimp-clone"
+                  href="https://github.com/jeevan243/flatheads"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <span type="button" className="btn btn--outline">
-                    View Code
+                    Source Code
                   </span>
                 </a>
               </div>
             </div>
           </div>
         </div>
+        {/* Purplle Clone  */}
         <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
               <div data-aos="fade-right">
                 <img
-                  src="https://i.ibb.co/6vdbyj2/Screenshot-405.png"
-                  alt="Myntra"
+                  src="https://user-images.githubusercontent.com/67849097/146674910-ca9d9f02-b7bd-40dc-a0e6-89e9046ee47c.jpg"
+                  alt="Purplle Clone"
                 />
               </div>
             </div>
             <div className="project_information" data-aos="fade-right">
-              <h2>Myntra Clone</h2>
+              <h2>Purplle Clone</h2>
               <p>
-                First Backend Project with NodeJS, ExpressJS and MongoDB. Used EJS to render views. Main functionalities were : Register/Login using JWT, Sorting and Filtering in the backend, Cart and Wish List and many more.
+                Purplle is an online store selling cosmetics, fragrances, skin,
+                and hair care products. It gives an online space to beauty and
+                wellness needs that showcases some of the beauty brands and
+                products. It's a team project completed executed in 5 days.
               </p>
               <div>
                 <IoLogoJavascript />
-                <FaReact />
-                <SiNodedotjs />
-                <SiExpress />
-                <SiMongodb />
+                <SiHtml5 />
+                <DiCss3 />
               </div>
               <div>
                 <a
-                  href="https://newmyntra.herokuapp.com/home"
+                  href="https://purplle.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <span type="button" className="btn btn--outline onbt">
-                    See this Live
+                    Deployment
                   </span>
                 </a>
                 <a
-                  href="https://github.com/imbickydutta/myntra"
+                  href="https://github.com/Duwesh/Purplle.com_web_clone"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <span type="button" className="btn btn--outline">
-                    View Code
+                    Source Code
                   </span>
                 </a>
               </div>
             </div>
           </div>
         </div>
+        {/* Flathead Frontend  */}
         <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
               <div data-aos="fade-right">
                 <img
-                  src="https://news-cdn.softpedia.com/images/news2/Dropbox-2-9-Enters-Development-with-Streaming-Sync-Feature-442773-2.jpg"
-                  alt=""
+                  src="https://user-images.githubusercontent.com/67849097/150683219-017c3ee0-76bc-4d63-90ea-3dbb91a076cc.png"
+                  alt="Flatheads Clone"
                 />
               </div>
             </div>
             <div className="project_information" data-aos="fade-right">
-              <h2>Backend API for Drive / DropBox Clone </h2>
+              <h2>Flatheads Clone</h2>
               <p>
-                Backend API for a google drive like app built using NodeJS, Express, Mongoose, MongoDB Atlas and AWS S3 for storage. A solo project. CRUD operations for users, files and folders.
+                This is clone of Flatheads.com, It is an e-commerce platform
+                where users may purchase various types of sneakers. Where we
+                have used HTML, CSS and Advance Javascript to acheive this. It's
+                a team project completed executed in 5 days.
               </p>
               <div>
-                <SiNodedotjs />
-                <SiExpress />
-                <SiMongodb />
+                <IoLogoJavascript />
+                <SiHtml5 />
+                <DiCss3 />
               </div>
               <div>
                 <a
-                  href="https://drive-system.herokuapp.com/"
+                  href="https://flatheads-clone-gamma.vercel.app"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <span type="button" className="btn btn--outline onbt">
-                    URL for the API
+                    Deployment
                   </span>
                 </a>
                 <a
-                  href="https://github.com/imbickydutta/file-system-backend"
+                  href="https://github.com/Duwesh/Flatheads-Clone"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <span type="button" className="btn btn--outline">
-                    View Code
+                    Source Code
                   </span>
                 </a>
               </div>
             </div>
           </div>
         </div>
+        {/* Weather App  */}
         <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
               <div data-aos="fade-right">
                 <img
-                  src="https://i.ibb.co/1bsxCjF/Screenshot-349.png"
-                  alt="TicTacToe"
+                  src="https://user-images.githubusercontent.com/67849097/158363501-a7dd3fec-ae8a-4361-99ce-826e5e5183c5.png"
+                  alt="Weather App"
                 />
               </div>
             </div>
+
             <div className="project_information" data-aos="fade-right">
-              <h2>Classic TicTacToe</h2>
+              <h2>PWA Weather App</h2>
               <p>
-                Mini project of A classic TicTacToe game built using ReactJS. Features : Button for Resetting The Game, History of all the moves played (undo a move), etc.
+                This is a beautiful progressive web app where you can fetch data
+                from api and get the latest and real time wether data and you
+                can download this is app also. This is a basic app which will
+                introduce you to the world of progressive web app
               </p>
               <div>
                 <FaReact />
@@ -181,41 +194,44 @@ export const Projects = () => {
               </div>
               <div>
                 <a
-                  href="https://tictactoe-bicky.netlify.app/"
+                  href="https://free-weather-gyan.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <span type="button" className="btn btn--outline onbt">
-                    See this Live
+                    Deployment
                   </span>
                 </a>
                 <a
-                  href="https://github.com/imbickydutta/tictactoe/tree/master"
+                  href="https://github.com/Duwesh/PWA-Weather-App"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <span type="button" className="btn btn--outline">
-                    View Code
+                    Source Code
                   </span>
                 </a>
               </div>
             </div>
           </div>
         </div>
+        {/* covid 19 tracker  */}
         <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
               <div data-aos="fade-right">
                 <img
-                  src="https://i.ibb.co/PMny3hW/Screenshot-406.png"
-                  alt="TicTacToe"
+                  src="https://camo.githubusercontent.com/758789925c77a28be1006b2684038407dafa31eb22fb8dfbc615f355d760cf20/68747470733a2f2f692e6962622e636f2f583837427156592f53637265656e73686f742d323032302d30342d31332d61742d31302d31342d35382e706e67"
+                  alt="Covid-19 Tracker"
                 />
               </div>
             </div>
             <div className="project_information" data-aos="fade-right">
-              <h2>Star Wars Search</h2>
+              <h2>Covid-19 Tracker</h2>
               <p>
-                Vanilla JS web app to Search for any Star Wars Character. Build with the help of Star Wars API and has the Classic UI (Color theme) of the original Star Wars Movie. Built to learn APIs and use them in the project.
+                I have build and deploy a corona tracker application. Covered
+                topics: React.js, Chart.js, Material UI to fetch data from an
+                API and display it in a very minimalistic way and much more.
               </p>
               <div>
                 <SiHtml5 />
@@ -224,21 +240,21 @@ export const Projects = () => {
               </div>
               <div>
                 <a
-                  href="https://searchstarwars.netlify.app/"
+                  href="https://free-covid-tracker.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <span type="button" className="btn btn--outline onbt">
-                    See this Live
+                    Deployment
                   </span>
                 </a>
                 <a
-                  href="https://github.com/imbickydutta/starWarsCharacterSearch"
+                  href="https://github.com/Duwesh/Covid-Tracker"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <span type="button" className="btn btn--outline">
-                    View Code
+                    Source Code
                   </span>
                 </a>
               </div>
