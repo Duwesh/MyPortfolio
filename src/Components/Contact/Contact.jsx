@@ -13,7 +13,14 @@ export const Contact = () => {
     <>
       <div className="section">
         <h2 className="section__title" data-aos="fade-right">
-          Connect <span className="different">With me</span>
+          Connect{" "}
+          <span className="different">
+            With me{" "}
+            <img
+              src="https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/handshake.gif"
+              width="100"
+            />
+          </span>
         </h2>
         <div className={"contactcontainer " + themename} data-aos="fade-right">
           <a

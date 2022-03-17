@@ -28,7 +28,7 @@ export const Timeline = () => {
     <>
       <div className="section mainsection">
         <h2 className="section__title" data-aos="fade-right">
-          My <span className="different">Education 💫</span>
+          👨‍🎓 My <span className="different">Education</span>
         </h2>
         <VerticalTimeline lineColor={linecolor}>
           <VerticalTimelineElement
@@ -37,12 +37,12 @@ export const Timeline = () => {
               boxShadow: `var(--shadow)`,
               backgroundColor: `var(--clr-bg)`,
               textAlign: "center",
-              color: `var(--clr-fg-alt)`
+              color: `var(--clr-fg-alt)`,
             }}
             contentArrowStyle={{ borderRight: "16px solid  rgb(33, 150, 243)" }}
             iconStyle={{
               backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`
+              color: `var(--clr-primary)`,
             }}
             icon={<SchoolIcon />}
           >
@@ -70,12 +70,12 @@ export const Timeline = () => {
               boxShadow: `var(--shadow)`,
               backgroundColor: `var(--clr-bg)`,
               textAlign: "center",
-              color: `var(--clr-fg-alt)`
+              color: `var(--clr-fg-alt)`,
             }}
             contentArrowStyle={{ borderRight: "16px solid  rgb(33, 150, 243)" }}
             iconStyle={{
               backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`
+              color: `var(--clr-primary)`,
             }}
             icon={<SchoolIcon />}
           >
@@ -88,8 +88,7 @@ export const Timeline = () => {
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
-            >
-            </h4>
+            ></h4>
             <p data-aos="fade-right">
               The Assam Royal Global University, Guwahati
             </p>
@@ -101,12 +100,12 @@ export const Timeline = () => {
               boxShadow: `var(--shadow)`,
               backgroundColor: `var(--clr-bg)`,
               textAlign: "center",
-              color: `var(--clr-fg-alt)`
+              color: `var(--clr-fg-alt)`,
             }}
             contentArrowStyle={{ borderRight: "16px solid  rgb(33, 150, 243)" }}
             iconStyle={{
               backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`
+              color: `var(--clr-primary)`,
             }}
             icon={<SchoolIcon />}
           >
@@ -119,17 +118,15 @@ export const Timeline = () => {
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
-            >
-            </h4>
-            <p data-aos="fade-right">Kendriya Vidyalaya No.1, Bokaro
-            </p>
+            ></h4>
+            <p data-aos="fade-right">Kendriya Vidyalaya No.1, Bokaro</p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
             icon={<StarRateIcon />}
             iconStyle={{
               backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`
+              color: `var(--clr-primary)`,
             }}
           ></VerticalTimelineElement>
         </VerticalTimeline>
