@@ -8,7 +8,11 @@ export const Type = () => {
       <span style={{ color: "red", fontWeight: "bold" }}></span>
       <Typewriter
         options={{
-          strings: ["A Full Stack Web Developer", "A MERN Stack Developer"],
+          strings: [
+            "A MERN Stack Developer ⚛️",
+            "I like to convert ideas into code 🐱‍👤💻",
+            "I enjoy solving problems 🦸‍♂️",
+          ],
           autoStart: true,
           loop: true,
           deleteSpeed: 50,

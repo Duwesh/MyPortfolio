@@ -23,7 +23,7 @@ export const Projects = () => {
     <>
       <div className="section">
         <h2 className="section__title different" data-aos="fade-right">
-          Projects
+          🌐My Projects
         </h2>
         <div className="projects_container">
           <div className="project">

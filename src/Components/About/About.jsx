@@ -20,7 +20,7 @@ export const About = () => {
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
-          My passion for software lies with dreaming up ideas and making them
+          I am a Full Stack Web Developer. My passion for software lies with dreaming up ideas and making them
           come true with elegant interface 💻. I focus on writing clean, elegant
           and efficient code. Highly skilled in collaboration, decision-making,
           and Data Structures & Algorithms.
@@ -79,15 +79,6 @@ export const About = () => {
             rel="noreferrer"
           >
             <FacebookIcon />
-          </a>
-          <a
-            href="https://goo.gl/maps/QyNYmATTCdkq1Af69"
-            aria-label="github"
-            className="link link--icon"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <PublicIcon />
           </a>
         </div>
       </div>

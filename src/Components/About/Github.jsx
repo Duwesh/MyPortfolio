@@ -18,7 +18,7 @@ export const Github = () => {
     <>
       <div className={"section " + themename} data-aos="fade-right">
         <h2 className="section__title different">
-          Days I <span className="different"> Code</span>
+          🔰 Days I <span className="different"> Code</span>
         </h2>
         <Githubcalendar
           username="duwesh"
