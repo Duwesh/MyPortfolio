@@ -29,7 +29,7 @@
 .project_videocontainer > div {
   width: 90%;
   height: 90%;
-  border: 10px solid var(--clr-primary);
+  border: 5px solid var(--clr-primary);
   border-radius: 30px;
 }
 .project_videocontainer > div > img {

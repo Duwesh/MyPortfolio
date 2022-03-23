@@ -1,9 +1,11 @@
 import React, { useRef } from "react";
 import emailjs from "emailjs-com";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { ThemeContext } from "../../Context/theme";
 
 export const Mailer = () => {
   // const form = useRef();
+  const [{ themename }] = React.useContext(ThemeContext);
 
   const sendEmail = (e) => {
     e.preventDefault();
