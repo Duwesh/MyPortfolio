@@ -50,7 +50,11 @@ export const Mailer = () => {
                 placeholder="Name"
                 name="name"
                 required
-                style={{ border: "1px solid dodgerblue", width: "90%" }}
+                style={{
+                  border: "1px solid dodgerblue",
+                  width: "90%",
+                  padding: "5px",
+                }}
               />
             </div>
             <br />
@@ -61,7 +65,11 @@ export const Mailer = () => {
                 placeholder="Email Address"
                 name="email"
                 required
-                style={{ border: "1px solid dodgerblue", width: "90%" }}
+                style={{
+                  border: "1px solid dodgerblue",
+                  width: "90%",
+                  padding: "5px",
+                }}
               />
             </div>
             <br />
