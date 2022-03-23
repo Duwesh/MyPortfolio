@@ -1,7 +1,8 @@
 import React, { useRef } from "react";
 import emailjs from "emailjs-com";
-import "bootstrap/dist/css/bootstrap.min.css";
+// import bootstrapStyle from "bootstrap/dist/css/bootstrap.min.css";
 import { ThemeContext } from "../../Context/theme";
+import "./Mailer.css";
 
 export const Mailer = () => {
   // const form = useRef();
@@ -31,44 +32,66 @@ export const Mailer = () => {
 
   return (
     <div>
-      <div className="container">
+      <div classNameNameName="container">
         <form onSubmit={sendEmail}>
-          <div className="row pt-5 mx-auto">
-            <div className="col-8 form-group mx-auto">
+          <div
+            style={{
+              backgroundColor: "transparent",
+              textAlign: "center",
+              margin: "auto",
+              width: "70%",
+              margin: "auto",
+            }}
+          >
+            <br />
+            <div>
               <input
                 type="text"
-                className="form-control"
                 placeholder="Name"
                 name="name"
+                required
+                style={{ border: "1px solid dodgerblue", width: "90%" }}
               />
             </div>
-            <div className="col-8 form-group pt-2 mx-auto">
+            <br />
+            <div>
               <input
                 type="email"
-                className="form-control"
+                classNameNameName="form-control"
                 placeholder="Email Address"
                 name="email"
+                required
+                style={{ border: "1px solid dodgerblue", width: "90%" }}
               />
             </div>
-            <div className="col-8 form-group pt-2 mx-auto">
+            <br />
+            <div className="message_text">
               <textarea
-                className="form-control"
                 id=""
-                cols="30"
                 rows="8"
                 placeholder="Your message"
                 name="message"
+                required
+                style={{ border: "1px solid dodgerblue", margin: "auto" }}
               ></textarea>
             </div>
-            <div className="col-8 pt-3 mx-auto">
+            <br />
+            <div className="submit_btn">
               <input
+                className="btn_submit"
                 type="submit"
-                className="btn btn-info"
                 value="Send Message"
+                style={{
+                  backgroundColor: "teal",
+                  borderRadius: "5px",
+                  padding: "5px 10px",
+                }}
               ></input>
             </div>
           </div>
         </form>
+
+        {/*  */}
       </div>
     </div>
   );
