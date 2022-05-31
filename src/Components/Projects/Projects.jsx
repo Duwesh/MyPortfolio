@@ -14,6 +14,8 @@ import {
   SiJavascript,
   SiMongodb,
   SiNodedotjs,
+  SiReact,
+  SiRedux,
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
@@ -25,6 +27,103 @@ export const Projects = () => {
         <h2 className="section__title different" data-aos="fade-right">
           🌐My Projects
         </h2>
+        <div className="projects_container">
+          <div className="project">
+            <div className="project_videocontainer">
+              <div data-aos="fade-right">
+                <img
+                  src="https://user-images.githubusercontent.com/67849097/171108818-21831fd5-61b6-4fb1-b390-2bd74de39624.png"
+                  alt="linkedin-clone"
+                />
+              </div>
+            </div>
+            <div className="project_information" data-aos="fade-right">
+              <h2>Linkedin Clone</h2>
+              <p>
+                The Linkedin-clone web application presents a custom
+                linkedin-clone. The App created with the latest industry
+                standards using React.js and Redux Toolkit.
+              </p>
+              <div>
+                <SiReact />
+                <SiRedux />
+                <IoLogoJavascript />
+                <SiNodedotjs />
+                <SiExpress />
+                <SiMongodb />
+              </div>
+              <div>
+                <a
+                  href="https://linkedin-clone-nine-brown.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline onbt">
+                    Deployment
+                  </span>
+                </a>
+                <a
+                  href="https://github.com/Duwesh/linkedin-clone"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline">
+                    Source Code
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="projects_container">
+          <div className="project">
+            <div className="project_videocontainer">
+              <div data-aos="fade-right">
+                <img
+                  src="https://user-images.githubusercontent.com/67849097/171109769-1e608c95-a35c-4bbd-bdd9-ecf1cd1a11ad.png"
+                  alt="Apartment-Manager"
+                />
+              </div>
+            </div>
+            <div className="project_information" data-aos="fade-right">
+              <h2>Apartment Manager</h2>
+              <p>
+                It is a solo project executed in 4 day as a side project of mine
+                in Masai School. It has features like CRUD operations and
+                sorting filtering, pagination, user authentication, and many
+                more.
+              </p>
+              <div>
+                <SiReact />
+                <SiRedux />
+                <IoLogoJavascript />
+                <SiNodedotjs />
+                <SiExpress />
+                <SiMongodb />
+              </div>
+              <div>
+                <a
+                  href="https://apartment-frontend-duwesh.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline onbt">
+                    Deployment
+                  </span>
+                </a>
+                <a
+                  href="https://github.com/Duwesh/frontend-apartment"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline">
+                    Source Code
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
@@ -167,6 +266,53 @@ export const Projects = () => {
             </div>
           </div>
         </div>
+        <div className="projects_container">
+          <div className="project">
+            <div className="project_videocontainer">
+              <div data-aos="fade-right">
+                <img
+                  src="https://user-images.githubusercontent.com/67849097/171111742-53fd63ab-ef60-421f-8ec7-7300d6cdd16f.png"
+                  alt="TODO-App"
+                />
+              </div>
+            </div>
+            <div className="project_information" data-aos="fade-right">
+              <h2>Todo App</h2>
+              <p>
+                This a minimalistic, customisable todo App. It has variety of
+                featurs like creating task, deleting task, updating task and
+                Removing all tasks from list. For storing the data have used
+                localstrorage, user will get the data even after refreshing the
+                page. Built using React and Advance JS practices.
+              </p>
+              <div>
+                <FaReact />
+                <SiHtml5 />
+                <DiCss3 />
+              </div>
+              <div>
+                <a
+                  href="https://todo-red-xi.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline onbt">
+                    Deployment
+                  </span>
+                </a>
+                <a
+                  href="https://github.com/Duwesh/todo"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline">
+                    Source Code
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
         {/* Weather App  */}
         <div className="projects_container">
           <div className="project">
@@ -178,7 +324,6 @@ export const Projects = () => {
                 />
               </div>
             </div>
-
             <div className="project_information" data-aos="fade-right">
               <h2>PWA Weather App</h2>
               <p>
