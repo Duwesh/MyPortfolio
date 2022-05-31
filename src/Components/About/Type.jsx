@@ -9,7 +9,7 @@ export const Type = () => {
       <Typewriter
         options={{
           strings: [
-            "A MERN Stack Developer ⚛️",
+            "A MERN Stack Developer 🚀",
             "I like to convert ideas into code 🐱‍👤💻",
             "I enjoy solving problems 🦸‍♂️",
           ],

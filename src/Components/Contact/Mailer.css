@@ -1,0 +1,16 @@
+.submit_btn {
+  color: black;
+}
+
+.btn_submit:hover {
+  color: white;
+}
+
+.message_text {
+  width: 90%;
+  margin: auto;
+}
+
+.message_text > textarea {
+  width: 100%;
+}
